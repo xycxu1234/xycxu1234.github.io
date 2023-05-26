@@ -1,24 +1,104 @@
 
-<div class="demo form-bg">
-        <div class="container">
+div {
 
-            <div class="row">
-                <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6">
-                    <form class="form-horizontal">
-                        <div class="heading">注册页面</div>
-                        <div class="form-group">
-                            <i class="fa fa-user"></i><input required name="login[username]" type="email" class="form-control" placeholder="Username" id="exampleInputEmail1">
-                        </div>
-                        <div class="form-group">
-                            <i class="fa fa-lock"></i><input required name="login[password]" type="password" class="form-control" placeholder="Password" />
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-default"><i class="fa fa-arrow-right"></i></button>
-                            <span><a href="" class="create_account">注册</a></span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+width:200px;
+
+height:200px;
+
+margin-top:100px;
+
+margin-right:auto;
+
+margin-left:auto;
+
+}
+
+.div1 {
+
+background-color:blue;
+
+position:absolute;
+
+top:0px;
+
+transform:translateZ(100px);
+
+}
+
+.div2 {
+
+background-color:cyan;
+
+position:absolute;
+
+top:0px;
+
+transform:rotateY(90deg) translateZ(100px);
+
+}
+
+.div3 {
+
+background-color:red;
+
+position:absolute;
+
+top:0px;
+
+transform:rotateX(90deg) translateZ(100px);
+
+}
+
+.div4 {
+
+background-color:purple;
+
+position:absolute;
+
+top:0px;
+
+transform:rotateY(180deg) translateZ(100px);
+
+}
+
+.div5 {
+
+background-color:green;
+
+position:absolute;
+
+top:0px;
+
+transform:rotateY(-90deg) translateZ(100px);
+
+}
+
+.div6 {
+
+background-color:orange;
+
+position:absolute;
+
+top:0px;
+
+transform:rotateX(-90deg) translateZ(100px);
+
+}
+
+.whole {
+
+width:200px;
+
+position:relative;
+
+transition:all 3s;
+
+transform-style:preserve-3d;
+
+}
+
+.whole:hover {
+
+transform:translate3d(0px,0px,100px) rotate3d(360,360,360,360deg);
+
+}    
